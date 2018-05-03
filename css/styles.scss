@@ -1,0 +1,48 @@
+$color: #990000;
+
+#login {
+    text-align: center;
+}
+
+#buttons {
+    padding: 20px;
+}
+
+%basic-btn {
+    padding: 5px;
+}
+
+.login-bnt {
+    @extend %basic-btn;
+    background-color: lightgrey;
+}
+
+.register-btn {
+    @extend %basic-btn;
+    background-color: darkgrey;
+}
+
+h1 {
+    color: $color;
+}
+
+input[type="text"], input[type="password"] {
+    font-size: 20px;
+}
+
+.formbutton {
+    font-size: 15px;
+}
+
+table {
+
+    border: 1px solid black;
+
+    th {
+        background-color: lightgrey;
+    }
+
+    th::selection, td::selection, li::selection {
+        background-color: $color;
+    }
+}

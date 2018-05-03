@@ -1,31 +1,43 @@
 #login {
-    text-align: center;
+  text-align: center;
 }
 
 #buttons {
-    padding: 20px;
+  padding: 20px;
+}
+
+.register-btn, .login-bnt {
+  padding: 5px;
+}
+
+.login-bnt {
+  background-color: lightgrey;
+}
+
+.register-btn {
+  background-color: darkgrey;
 }
 
 h1 {
-    color: #990000;
+  color: #990000;
 }
 
-input[type="text"], input[type="password"] {
-    font-size: 20px;
+input[type=text], input[type=password] {
+  font-size: 20px;
 }
 
 .formbutton {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 table {
-    border: 1px solid black;
+  border: 1px solid black;
+}
+table th {
+  background-color: lightgrey;
+}
+table th::selection, table td::selection, table li::selection {
+  background-color: #990000;
 }
 
-th {
-    background-color: lightgrey;
-}
-
-th::selection, td::selection {
-    background-color: yellow;
-}
+/*# sourceMappingURL=css/styles.css.map */
