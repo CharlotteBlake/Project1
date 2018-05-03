@@ -1,0 +1,31 @@
+#login {
+    text-align: center;
+}
+
+#buttons {
+    padding: 20px;
+}
+
+h1 {
+    color: #990000;
+}
+
+input[type="text"], input[type="password"] {
+    font-size: 20px;
+}
+
+.formbutton {
+    font-size: 15px;
+}
+
+table {
+    border: 1px solid black;
+}
+
+th {
+    background-color: lightgrey;
+}
+
+th::selection, td::selection {
+    background-color: yellow;
+}

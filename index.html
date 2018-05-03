@@ -2,15 +2,36 @@
 <html>
     <head>
         <title>Flux login</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <style>
+            @media (max-width: 599px) {
+                h1::before {
+                    content: "Login"
+                }
+            }
+            @media (min-width: 600px) {
+                h1::before {
+                    content: "Login to your Flux account"
+                }
+            }
+        </style>
     </head>
     <body>
-        <img src="img/river.png">
-        <h1>Login to your Flux account</h1>
-        <form>
-            <input type="text" placeholder="username">
-            <input type="password" placeholder="password">
-            <button formaction="html/feeds.html">Login</button>
-            <button formaction="html/register.html">Register</button>
-        </form>
+        <div id="login">
+            <img src="img/river.png" width="100px">
+            <h1></h1>
+            <form>
+                <div class="">
+                    <input type="text" placeholder="username">
+                </div>
+                <div class="">
+                    <input type="password" placeholder="password">
+                </div>
+                <div id="buttons">
+                    <button formaction="html/feeds.html" class="formbutton">Login</button>
+                    <button formaction="html/register.html" class="formbutton">Register</button>
+                </div>
+            </form>
+        </div>
     </body>
 </html>
